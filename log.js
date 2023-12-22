@@ -1,0 +1,1 @@
+function countWords(statement) { // Remove extra whitespaces and split the string into an array of words let wordsArray = statement.trim().split(/\s+/); return wordsArray.length; } // Test the function with your statement let message = "There is not war in Bad Sing Se"; let wordCount = countWords(message); console.log("The number of words in the statement:", wordCount);
